@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render edit expense  1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <EditExpensePage
+    decrement={[Function]}
+    expense={
+        Object {
+            "amount": 13366,
+            "createdAt": 345600000,
+            "description": "Credit Card",
+            "id": 3,
+            "note": "",
+          }
+    }
+    history={
+        Object {
+            "push": [Function],
+          }
+    }
+    increment={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h3>
+           Edit Your expense
+</h3>,
+        <ExpenseForm
+          expense={
+                    Object {
+                              "amount": 13366,
+                              "createdAt": 345600000,
+                              "description": "Credit Card",
+                              "id": 3,
+                              "note": "",
+                            }
+          }
+          onSubmit={[Function]}
+/>,
+        <button
+          onClick={[Function]}
+>
+          Remove
+</button>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": " Edit Your expense",
+        },
+        "ref": null,
+        "rendered": " Edit Your expense",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "expense": Object {
+            "amount": 13366,
+            "createdAt": 345600000,
+            "description": "Credit Card",
+            "id": 3,
+            "note": "",
+          },
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Remove",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Remove",
+        "type": "button",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h3>
+             Edit Your expense
+</h3>,
+          <ExpenseForm
+            expense={
+                        Object {
+                                    "amount": 13366,
+                                    "createdAt": 345600000,
+                                    "description": "Credit Card",
+                                    "id": 3,
+                                    "note": "",
+                                  }
+            }
+            onSubmit={[Function]}
+/>,
+          <button
+            onClick={[Function]}
+>
+            Remove
+</button>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": " Edit Your expense",
+          },
+          "ref": null,
+          "rendered": " Edit Your expense",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "expense": Object {
+              "amount": 13366,
+              "createdAt": 345600000,
+              "description": "Credit Card",
+              "id": 3,
+              "note": "",
+            },
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Remove",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Remove",
+          "type": "button",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
