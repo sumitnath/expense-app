@@ -38,7 +38,7 @@ const store = configureStore()
 // const state = store.getState()
 // const visibleExpense = getVisibleExpenses(state.expenses, state.filters)
 // console.log(visibleExpense)
-
+console.log('test')
 const jsx = ( 
     <Provider store = { store } >
     <AppRouter/>
