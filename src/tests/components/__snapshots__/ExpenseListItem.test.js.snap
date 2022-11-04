@@ -10,14 +10,12 @@ exports[`Should render ExpenseList Item correctly 1`] = `
       Gum
        
     </h3>
-     
   </Link>
-   
   <p>
      
-    12536
-    --
-    0
+    $12.54
+    -- 
+    January1 1st, 1970
      
   </p>
 </div>
@@ -32,12 +30,12 @@ exports[`Should render ExpenseList Item without a Item 1`] = `
        
        
     </h3>
-     
   </Link>
-   
   <p>
      
-    --
+    $0.00
+    -- 
+    January1 1st, 1970
      
   </p>
 </div>
