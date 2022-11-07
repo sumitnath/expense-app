@@ -7,7 +7,7 @@ import {removeExpense} from '../actions/expenses'
 export class EditExpensePage extends React.Component {
   
  editExpense = (expense)=>{
-      console.log('update',expense);
+    //  console.log('update',expense);
    //  this.props.dispatch(editExpense(this.props.expense.id,expense))
    this.props.increment(this.props.expense.id,expense)
      this.props.history.push('/')   

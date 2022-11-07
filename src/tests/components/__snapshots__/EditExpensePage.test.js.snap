@@ -8,7 +8,7 @@ ShallowWrapper {
     decrement={[Function]}
     expense={
         Object {
-            "amount": 13366,
+            "amount": 13,
             "createdAt": 345600000,
             "description": "Credit Card",
             "id": 3,
@@ -41,7 +41,7 @@ ShallowWrapper {
         <ExpenseForm
           expense={
                     Object {
-                              "amount": 13366,
+                              "amount": 13,
                               "createdAt": 345600000,
                               "description": "Credit Card",
                               "id": 3,
@@ -76,7 +76,7 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "expense": Object {
-            "amount": 13366,
+            "amount": 13,
             "createdAt": 345600000,
             "description": "Credit Card",
             "id": 3,
@@ -116,7 +116,7 @@ ShallowWrapper {
           <ExpenseForm
             expense={
                         Object {
-                                    "amount": 13366,
+                                    "amount": 13,
                                     "createdAt": 345600000,
                                     "description": "Credit Card",
                                     "id": 3,
@@ -151,7 +151,7 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "expense": Object {
-              "amount": 13366,
+              "amount": 13,
               "createdAt": 345600000,
               "description": "Credit Card",
               "id": 3,

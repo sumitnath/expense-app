@@ -6,7 +6,7 @@ exports[`should render ExpenseList with expenses 1`] = `
     Expense List
   </h1>
   <ExpenseListItem
-    amount={12536}
+    amount={36}
     createdAt={0}
     description="Gum"
     id={1}
@@ -14,7 +14,7 @@ exports[`should render ExpenseList with expenses 1`] = `
     note=""
   />
   <ExpenseListItem
-    amount={1338966}
+    amount={64}
     createdAt={-345600000}
     description="Rent"
     id={2}
@@ -22,7 +22,7 @@ exports[`should render ExpenseList with expenses 1`] = `
     note=""
   />
   <ExpenseListItem
-    amount={13366}
+    amount={13}
     createdAt={345600000}
     description="Credit Card"
     id={3}
