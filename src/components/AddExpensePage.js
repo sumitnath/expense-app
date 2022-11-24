@@ -2,12 +2,13 @@ import React from 'react';
 import { connect } from 'react-redux';
 import ExpenseForm from './ExpenseForm';
 import {addExpense} from '../actions/expenses'
+import { startAddExpense } from '../actions/expenses';
 // getting action geberator 
 export class AddExpensePage extends React.Component{
   onSubmit=(expense)=>{
     //console.log(expense);
    // props.dispatch(addExpense(expense))
-   this.props.addExpense(expense)
+   this.props.startAddExpense(expense)
     this.props.history.push('/')
   };
   render(){
@@ -23,7 +24,7 @@ export class AddExpensePage extends React.Component{
 
   const mapDispatchToProps = (dispatch) =>{
     return {
-      addExpense : (expense)=> dispatch(addExpense(expense))
+      startAddExpense : (expense)=> dispatch(startAddExpense(expense))
         }
   }
 //to pass the data to redux store we have to import connect 

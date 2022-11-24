@@ -9,6 +9,9 @@ import getVisibleExpenses from './selector/expenses'
 import 'normalize.css/normalize.css';
 import './styles/styles.scss'
 import 'react-dates/lib/css/_datepicker.css'
+import './firebase/firebase'
+
+
 const store = configureStore()
 
 //// removing dummy data
@@ -39,10 +42,12 @@ const store = configureStore()
 // const visibleExpense = getVisibleExpenses(state.expenses, state.filters)
 // console.log(visibleExpense)
 console.log('test')
-const jsx = ( 
-    <Provider store = { store } >
-    <AppRouter/>
-    </Provider>
+const jsx = ( <
+    Provider store = { store } >
+    <
+    AppRouter / >
+    <
+    /Provider>
 
 )
 

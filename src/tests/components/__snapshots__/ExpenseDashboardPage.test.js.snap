@@ -3,6 +3,7 @@
 exports[`should render Dashboard page correctly 1`] = `
 <div>
   This is from my dashboard component
+  <Connect(ExpenseSummery) />
   <Connect(ExpenseListFilter) />
   <Connect(ExpenseList) />
 </div>

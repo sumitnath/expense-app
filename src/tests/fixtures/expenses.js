@@ -21,4 +21,4 @@ export default [{
     amount: 13,
     createdAt: moment(0).add(4, 'days').valueOf()
 
-}]
+}]      
