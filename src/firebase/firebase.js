@@ -1,14 +1,26 @@
 import * as firebase from 'firebase'
+// const firebaseConfig = {
+//     apiKey: process.env.FIREBASE_API_KEY,
+//     authDomain: process.env.FIREBASE_AUTH_DOMAIN,
+//     databaseURL: process.env.FIREBASE_DATABASE_URL,
+//     projectId: process.env.FIREBASE_PROJECT_ID,
+//     storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
+//     messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID,
+//     appId: process.env.FIREBASE_APP_ID,
+//     measurementId: process.env.FIREBASE_MEASUREMENT_ID
+// };
+
 const firebaseConfig = {
-    apiKey: process.env.FIREBASE_API_KEY,
-    authDomain: process.env.FIREBASE_AUTH_DOMAIN,
-    databaseURL: process.env.FIREBASE_DATABASE_URL,
-    projectId: process.env.FIREBASE_PROJECT_ID,
-    storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
-    messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID,
-    appId: process.env.FIREBASE_APP_ID,
-    measurementId: process.env.FIREBASE_MEASUREMENT_ID
+    apiKey: "AIzaSyC3xjUIUAtFElYWrGPX-AjTaH8jdFPpgxE",
+    authDomain: "expense-app-90f0a.firebaseapp.com",
+    databaseURL: "https://expense-app-90f0a-default-rtdb.firebaseio.com",
+    projectId: "expense-app-90f0a",
+    storageBucket: "expense-app-90f0a.appspot.com",
+    messagingSenderId: "740669853415",
+    appId: "1:740669853415:web:275d4b927cf2ab2d309c42",
+    measurementId: "G-BV3ZJN71GG"
 };
+
 firebase.initializeApp(firebaseConfig);
 
 
