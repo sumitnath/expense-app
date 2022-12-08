@@ -1,18 +1,18 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import ExpenseForm from './ExpenseForm';
-import {editExpense} from '../actions/expenses'
-import {removeExpense} from '../actions/expenses'
+import {startEditExpense} from '../actions/expenses'
+import {startRemoveExpense} from '../actions/expenses'
 
 export class EditExpensePage extends React.Component {
   
- editExpense = (expense)=>{
+  startEditExpense = (expense)=>{
     //  console.log('update',expense);
    //  this.props.dispatch(editExpense(this.props.expense.id,expense))
    this.props.increment(this.props.expense.id,expense)
      this.props.history.push('/')   
     }
-  removeExpense =()=>{ 
+    startRemoveExpense =()=>{ 
     this.props.decrement({id:this.props.expense.id} );
     this.props.history.push('/')
   }
@@ -23,10 +23,10 @@ return (
     
     <ExpenseForm 
     expense ={this.props.expense}
-    onSubmit={this.editExpense}
+    onSubmit={this.startEditExpense}
     />
     
-  <button onClick ={this.removeExpense}>Remove</button>
+  <button onClick ={this.startRemoveExpense}>Remove</button>
     
   </div>
    )
@@ -34,8 +34,8 @@ return (
 }
 const mapDispatchToProps = (dispatch,props) => {
     return {
-        increment: (id,expense) => dispatch(editExpense(id, expense)),
-        decrement: (data) => dispatch(removeExpense(data))   
+        increment: (id,expense) => dispatch(startEditExpense(id, expense)),
+        decrement: (data) => dispatch(startRemoveExpense(data))   
     }
   }
 

@@ -11,7 +11,7 @@ ShallowWrapper {
             "amount": 13,
             "createdAt": 345600000,
             "description": "Credit Card",
-            "id": 3,
+            "id": "3",
             "note": "",
           }
     }
@@ -44,7 +44,7 @@ ShallowWrapper {
                               "amount": 13,
                               "createdAt": 345600000,
                               "description": "Credit Card",
-                              "id": 3,
+                              "id": "3",
                               "note": "",
                             }
           }
@@ -79,7 +79,7 @@ ShallowWrapper {
             "amount": 13,
             "createdAt": 345600000,
             "description": "Credit Card",
-            "id": 3,
+            "id": "3",
             "note": "",
           },
           "onSubmit": [Function],
@@ -119,7 +119,7 @@ ShallowWrapper {
                                     "amount": 13,
                                     "createdAt": 345600000,
                                     "description": "Credit Card",
-                                    "id": 3,
+                                    "id": "3",
                                     "note": "",
                                   }
             }
@@ -154,7 +154,7 @@ ShallowWrapper {
               "amount": 13,
               "createdAt": 345600000,
               "description": "Credit Card",
-              "id": 3,
+              "id": "3",
               "note": "",
             },
             "onSubmit": [Function],
